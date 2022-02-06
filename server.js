@@ -55,9 +55,9 @@ async function main() {
         res.json(cartItem)
     })
 
-    app.listen(3001, () => {
+    app.listen(3002, () => {
         liveServer.start({
-            port: 3000,
+            port: 3001,
             logLevel: 0,
             root: './public'
         })
